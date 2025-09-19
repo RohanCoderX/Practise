@@ -1,0 +1,20 @@
+mkdir Practise
+cd Practise/
+git init
+
+git config  --global user.name “RohanCoderX”
+git config --global user.email “khandagaler519@gmail.com”
+
+git remote add origin https://<PAT_Token>@github.com/RohanCoderX/Practise.git
+
+git config --list
+
+vim first.txt
+
+git status
+git add .
+git commit -m "first commit"
+
+git branch -m master main
+git push origin main
+
